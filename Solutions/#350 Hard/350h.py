@@ -1,4 +1,4 @@
-# Using a bitarray as a bloom filter, detect repeat values with variable probability of correctness.
+# Using a bitarray as a Bloom filter, detect repeat values with variable probability of correctness.
 
 # This approach works by taking a number, hashing it X amount of times, converting those hashes to
 # max-bounded indices, then setting those indices of a bitarray to True.
